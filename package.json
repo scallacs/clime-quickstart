@@ -50,6 +50,7 @@
     "typescript": "^2.4.2"
   },
   "dependencies": {
+    "@iotize/iotize-client": "file:../iotize-client.js",
     "@types/node": "^8.0.31",
     "clime": "^0.5.5"
   },

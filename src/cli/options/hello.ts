@@ -16,6 +16,6 @@ export class HelloOptions extends CommonOptions {
         required: false,
         default: 'en'
     })
-    language: 'en' | 'fr';
+    language: 'en' | 'fr' = 'en';
 
 }

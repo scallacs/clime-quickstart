@@ -15,7 +15,7 @@ export class CommonOptions extends Options {
         required: false,
         default: false
     })
-    dryRun: boolean;
+    dryRun: boolean = false;
     
     @option({
         description: 'log level',
@@ -23,5 +23,5 @@ export class CommonOptions extends Options {
         required: false,
         default: false
     })
-    loglevel: string;
+    loglevel: boolean = false;
 }

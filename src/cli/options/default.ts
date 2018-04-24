@@ -17,7 +17,7 @@ export class DefaultOptions extends CommonOptions {
         required: false,
         default: false
     })
-    version: boolean;
+    version: boolean = false;
 
     getVersion() {
         return "0.0.1";
